@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* overflow-x: hidden; */
+    -webkit-overflow-scrolling: hidden;
+  }
+  html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: #222; */
+    overflow-x: hidden;
+  }
+  .main{
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    background-image: url(https://images.unsplash.com/photo-1628544106915-0d756c7dadfa?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+  }
+  .nav{
+    height: 100px;
+    width: inherit;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    font-size: 25px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.347);
+  }
+  .bar{
+    background-color: #bfa28e69;
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    right: -35%;
+    /* backdrop-filter: blur(10px); */
+    display: flex;
+    padding: 5vw;
+    flex-direction: column;
+    gap: 8%;
+    color: #1b304d;
+  }
+  .bar h4{
+    font-size: 25px;
+  }
+  .bar i{
+    position: absolute;
+    top: 4%;
+    right: 8%;
+    font-size: 33px;
+    color: #fff;
+    background-color: #1b304d;
+    border-radius: 50%;
+  }
+  .cursor{
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.635);
+    border-radius: 50%;
+    z-index: 9;
+  }
+  .box{
+    display: block;
+    height: 100px;
+    width: 1500px;
+    position: relative;
+    
+  }
+  .box svg{
+    height: 100px;
+    position: absolute;
+    width: inherit;
+    z-index: 2;
+    background-color: #fff;
+    mix-blend-mode: difference;
+  
+  }
+  .main2{
+    height: 500px;
+    width: 100%;
+    background-color: aquamarine;
+  }
